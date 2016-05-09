@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Prism.CQRS.Bootstrapper.Autofac.Nuget</id>
+    <version>0.0.1</version>
+    <title>Prism.CQRS.Bootstrapper.Autofac.Nuget</title>
+    <authors>Luke Doolittle</authors>
+    <owners>Luke Doolittle</owners>
+    <description>
+      A bootstrapper with an Autofac core primarily used for wiring up assembly defined event and command handlers
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      An autofac-powered bootstrapper for Prism.CQRS messaging
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/Prism.CQRS.Bootstrapper.Autofac.Nuget</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright  2016</copyright>
+    <dependencies>
+        <group targetFramework="portable45-net45+win8+wpa81">
+          <dependency id="Autofac" version="3.5.2" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>

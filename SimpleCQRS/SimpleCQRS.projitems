@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>443886c1-01e0-45bf-adf8-f48ba18fed93</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SimpleCQRS</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CommandHandlerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\AggregateRoot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\ConcurrencyConflictResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Domain\Event.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\AggregateNotFoundException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\EventStoreConcurrencyException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\MultipleCommandHandlersException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\ICommandHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\ICommandSender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IConcurrencyConflictResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IEventPublisher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IEventStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IEventHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IMessageBus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\ISubscriptionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Contracts\IUnique.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\EventAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\MethodInvoker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\TypeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\MessageHub.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\EventDescriptors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\EventStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Repository.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.CQRS", "Prism.CQRS\Prism.CQRS.csproj", "{A89ADA1D-1F62-4740-BF87-F2161782EA66}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SimpleCQRS", "SimpleCQRS\SimpleCQRS.shproj", "{443886C1-01E0-45BF-ADF8-F48BA18FED93}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Prism", "Prism\Prism.shproj", "{E53A4061-E931-4DDC-8D12-C56806B086DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.CQRS.NuGet", "Prism.CQRS.NuGet\Prism.CQRS.NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.CQRS.Test", "Prism.CQRS.Test\Prism.CQRS.Test.csproj", "{191EFAD1-C278-4BEA-82AA-85B24A5DE87E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F472539-B130-4948-9839-9508B17AE732}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.CQRS.Bootstrapper.Autofac", "Prism.CQRS.Bootstrapper.Autofac\Prism.CQRS.Bootstrapper.Autofac.csproj", "{A52114FE-84CE-43EC-8DEE-E2E62E9949CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.CQRS.Bootstrapper.Autofac.Test", "Prism.CQRS.Bootstrapper.Autofac.Test\Prism.CQRS.Bootstrapper.Autofac.Test.csproj", "{6AC86400-AC54-4889-A1A0-4847507E23A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.CQRS.Bootstrapper.Autofac.Nuget", "Prism.CQRS.Bootstrapper.Autofac.Nuget\Prism.CQRS.Bootstrapper.Autofac.Nuget.csproj", "{62A4FD23-FE40-4706-AC7A-4A59893394DF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SimpleCQRS\SimpleCQRS.projitems*{443886c1-01e0-45bf-adf8-f48ba18fed93}*SharedItemsImports = 13
+		Prism\Prism.projitems*{e53a4061-e931-4ddc-8d12-c56806b086db}*SharedItemsImports = 13
+		Prism.Core\Prism.projitems*{a89ada1d-1f62-4740-bf87-f2161782ea66}*SharedItemsImports = 4
+		SimpleCQRS\SimpleCQRS.projitems*{a89ada1d-1f62-4740-bf87-f2161782ea66}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A89ADA1D-1F62-4740-BF87-F2161782EA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89ADA1D-1F62-4740-BF87-F2161782EA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89ADA1D-1F62-4740-BF87-F2161782EA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89ADA1D-1F62-4740-BF87-F2161782EA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191EFAD1-C278-4BEA-82AA-85B24A5DE87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191EFAD1-C278-4BEA-82AA-85B24A5DE87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191EFAD1-C278-4BEA-82AA-85B24A5DE87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52114FE-84CE-43EC-8DEE-E2E62E9949CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52114FE-84CE-43EC-8DEE-E2E62E9949CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52114FE-84CE-43EC-8DEE-E2E62E9949CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52114FE-84CE-43EC-8DEE-E2E62E9949CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC86400-AC54-4889-A1A0-4847507E23A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC86400-AC54-4889-A1A0-4847507E23A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC86400-AC54-4889-A1A0-4847507E23A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A4FD23-FE40-4706-AC7A-4A59893394DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A4FD23-FE40-4706-AC7A-4A59893394DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A4FD23-FE40-4706-AC7A-4A59893394DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
